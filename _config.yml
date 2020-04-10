@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Leo-Shaw
-description: > # 
+description: >- # 
 	Leo-Shaw的个人网站——测试版
 baseurl: ""
 url: "https://Leo-Shaw.github.io"
@@ -40,15 +40,15 @@ user_email: "431283793@qq.com"
 #disqus_shortname: "matjek"
 
 # Build settings
-markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-sass:
-  style: compressed
-future: true
+#markdown: kramdown
+#gems:
+#  - jekyll-feed
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock
+#sass:
+#  style: compressed
+#future: true
