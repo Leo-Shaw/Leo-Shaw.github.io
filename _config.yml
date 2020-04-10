@@ -1,1 +1,55 @@
-theme: jekyll-theme-hacker
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Leo-Shaw
+subtitle：个人网站
+description: > # 
+	Leo-Shaw的个人网站——测试版
+baseurl: ""
+url: "https://Leo-Shaw.github.io"
+repository: Leo-Shaw
+#文章链接格式，伪/%post_id.html%/
+permalink: /:short_year/:i_month/:i_day.html
+#permalink: /:year/:month/:day/:title
+#分页，每页显示文章数
+paginate: 15
+paginate_path: /page:num
+#设置时区，默认本地OS时间
+timezone：Asia/Beijing
+
+#个人信息配置
+# MatJek specific configurations
+github_profile: "https://github.com/Leo-Shaw"
+user: "JLeo-Shaw"
+user_email: "431283793@qq.com"
+#contact_url: "https://goo.gl/tVljbV"
+#google_tracking_id: "UA-96359860-1"
+#google_site_verification: "UA-96359860-1"
+#disqus_shortname: "matjek"
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+future: true
