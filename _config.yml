@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Leo-Shaw
-description: >- # 
-	Leo-Shaw的个人网站——测试版
+description: >- # Leo-Shaw的个人网站——测试版
 baseurl: ""
 url: "https://Leo-Shaw.github.io"
 repository: Leo-Shaw
