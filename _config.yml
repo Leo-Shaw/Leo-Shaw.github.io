@@ -30,9 +30,9 @@ paginate_path: /page:num
 #个人信息配置
 # MatJek specific configurations
 github_profile: "https://github.com/Leo-Shaw"
-user: "JLeo-Shaw"
-user_email: "431283793@qq.com"
-#contact_url: "https://goo.gl/tVljbV"
+user: "Leo-Shaw"
+user_email: "leo.stark@foxmail.com"
+contact_url: "https://www.zhihu.com/people/leo-33-90"
 #google_tracking_id: "UA-96359860-1"
 #google_site_verification: "UA-96359860-1"
 #disqus_shortname: "matjek"
